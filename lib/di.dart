@@ -63,7 +63,7 @@ void setupLocator() {
         ..fetchUpComingController(),
       permanent: true);
 // Movies Detail
-  Get.putAsync(() => GetStorage.init('movies'));
+  Get.putAsync(() => GetStorage.init());
   Get.lazyPut<MoviesDetailRemote>(() => MoviesDetailRemote(), fenix: true);
   Get.lazyPut<MoviesDetailLocal>(() => MoviesDetailLocal(), fenix: true);
   Get.lazyPut<MoviesDetailRemoteDatasource>(
