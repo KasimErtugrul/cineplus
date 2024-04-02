@@ -74,12 +74,9 @@ void setupLocator() {
       fenix: true);
   Get.lazyPut<MoviesDetailRepository>(() => MoviesDetailRepositoryImp(),
       fenix: true);
-  Get.lazyPut<MoviesDetailLocalRepository>(
-      () => MoviesDetailLocalRepositoryImp(),
-      fenix: true);
+
   Get.lazyPut<MoviesDetailUsecase>(() => MoviesDetailUsecase(), fenix: true);
-  Get.lazyPut<MoviesDetailLocalUsecase>(() => MoviesDetailLocalUsecase(),
-      fenix: true);
+
   Get.lazyPut<MoviesDetailImagesUsecase>(() => MoviesDetailImagesUsecase(),
       fenix: true);
   //

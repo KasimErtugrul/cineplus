@@ -1,6 +1,5 @@
 import 'package:cineplus/core/error/failure_request.dart';
 import 'package:cineplus/core/error/service_exception.dart';
-import 'package:cineplus/featured_tmdb/movies/data/datasource/movies_detail_local_datasource.dart';
 import 'package:cineplus/featured_tmdb/movies/data/datasource/movies_detail_remote_datasource.dart';
 import 'package:cineplus/featured_tmdb/movies/data/model/movies_model.dart';
 import 'package:cineplus/featured_tmdb/movies/domain/entity/movie_images_entity.dart';
@@ -53,18 +52,6 @@ class MoviesDetailRepositoryImp extends MoviesDetailRepository {
 
 }
 
-class MoviesDetailLocalRepositoryImp extends MoviesDetailLocalRepository {
-  final MoviesDetailLocalDatasource moviesDetailLocalDatasource = Get.find();
-  @override
- Either<Failure, MoviesEntity> getMoviesDetail(
-      {required int movieId}) {
-    try {
-     var local = moviesDetailLocalDatasource.readMovies(movieId);
-      return Right(local!);
-    } on ServiceException catch (failure) {
-      return Left(ServiceFailure(failure.errorHandle.statusMessage));
-    }
-  }
+
 
   
-}

@@ -9,11 +9,11 @@ import 'package:get/get.dart';
 import '../../../../app/utils/enums.dart';
 import '../../domain/entity/movie_images_entity.dart';
 import '../../domain/entity/movie_watch_provider_entity.dart';
-import '../../domain/usecase/movies_detail_local_usecase.dart';
+
 
 class MoviesDetailController extends GetxController {
   final MoviesDetailUsecase moviesDetailUsecase = Get.find();
-  final MoviesDetailLocalUsecase moviesDetailLocalUsecase = Get.find();
+
   final MoviesDetailImagesUsecase moviesDetailImagesUsecase = Get.find();
   final MoviesDetailWatchProviderUsecase moviesDetailWatchProviderUsecase =
       Get.find();
@@ -43,25 +43,7 @@ class MoviesDetailController extends GetxController {
     }
   }
 
-  fetchMoviesDetailLast({required int movieId}) async {
-    fetchMoviesDetailLocal(movieId: movieId);
-    if (!moviesDetailLocalLoading.value) {
-      await fetchMoviesDetail(
-        movieId: movieId,
-      );
-    }
-  }
-
-  void fetchMoviesDetailLocal({required int movieId}) {
-    var local = moviesDetailLocalUsecase.call(movieId);
-    local.fold((l) {
-      moviesDetailLocalError.value = true;
-      moviesDetailLocalLoading.value = false;
-    }, (r) {
-      moviesDetailData.value = r!;
-      moviesDetailLocalLoading.value = true;
-    });
-  }
+ 
 
   Future<void> fetchMoviesDetail({required int movieId}) async {
     log('controller gelen film id: $movieId');

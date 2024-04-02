@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:4:5-38:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kasim\.gradle\caches\transforms-3\e6b0b9dc824b46f664e22553c27debac\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kasim\.gradle\caches\transforms-3\e6b0b9dc824b46f664e22553c27debac\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:sqflite] D:\flutter_projelerim\cineplus\cineplus\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] D:\flutter_projelerim\cineplus\cineplus\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:video_player_android] D:\flutter_projelerim\cineplus\cineplus\build\video_player_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] D:\flutter_projelerim\cineplus\cineplus\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\d700e38361e6d99fd41a4e4815c44d9e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b57881dcfc84e5908048369d32ccd525\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\e513936d947bc570e65d628ab205e3f3\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\a94a2fa77882cf31f5f572bae78f9cd6\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\cced9d0290f3f1eccc2e05185c8462d3\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\fcb3115b6f9b3ace9a6d7dc089e6dc21\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\ca4857c0c79f301e56bc4a77a4978e33\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\4a6859fb4f597edc172b8967ce78380d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\5e0e0a3fbc58616b62b419c02a9e76d7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\b7ca87c9153d7964b0106e46aff39d58\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\78acb8cea9794aa51873fdf786b9ca5d\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\5750d63ce2c1fed0b5bae102ad4fe13d\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\aac7fc7f1ae55f71ececec9e317df3ab\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b121112e2b2c9977515c23d87ba5fd38\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\f378747b11e483f46e88b3620e432a0e\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\7099d37a06589e2313fd903d6b2c4b94\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kasim\.gradle\caches\transforms-3\e6b0b9dc824b46f664e22553c27debac\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\kasim\.gradle\caches\transforms-3\9d1b2380f7b4a6d744ea16bf5d3fe755\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\1f1e127b29560434666c164524d684a3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\c78928d2744755fea61ad14bc85f170d\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\08affc45554bfa4e39f25d2e8866169c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\a4ac9b44bd460951fa84a4499b733c07\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\39f1abc436098827c181d0fed59970c7\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\675d4f8b82be03b66a2499ef69f77467\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:2:5-66
+MERGED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:2:5-66
+MERGED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:2:5-66
+	android:name
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:2:22-64
+queries
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:41:5-46:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:43:21-70
+data
+ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:44:13-50
+	android:mimeType
+		ADDED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml:44:19-48
+uses-sdk
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+MERGED from [:sqflite] D:\flutter_projelerim\cineplus\cineplus\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\flutter_projelerim\cineplus\cineplus\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\flutter_projelerim\cineplus\cineplus\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\flutter_projelerim\cineplus\cineplus\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] D:\flutter_projelerim\cineplus\cineplus\build\video_player_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] D:\flutter_projelerim\cineplus\cineplus\build\video_player_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\flutter_projelerim\cineplus\cineplus\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\flutter_projelerim\cineplus\cineplus\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\d700e38361e6d99fd41a4e4815c44d9e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\d700e38361e6d99fd41a4e4815c44d9e\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b57881dcfc84e5908048369d32ccd525\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b57881dcfc84e5908048369d32ccd525\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\e513936d947bc570e65d628ab205e3f3\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\e513936d947bc570e65d628ab205e3f3\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\a94a2fa77882cf31f5f572bae78f9cd6\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\a94a2fa77882cf31f5f572bae78f9cd6\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\cced9d0290f3f1eccc2e05185c8462d3\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\cced9d0290f3f1eccc2e05185c8462d3\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\fcb3115b6f9b3ace9a6d7dc089e6dc21\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\fcb3115b6f9b3ace9a6d7dc089e6dc21\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\ca4857c0c79f301e56bc4a77a4978e33\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\ca4857c0c79f301e56bc4a77a4978e33\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\4a6859fb4f597edc172b8967ce78380d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\4a6859fb4f597edc172b8967ce78380d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\5e0e0a3fbc58616b62b419c02a9e76d7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\5e0e0a3fbc58616b62b419c02a9e76d7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\b7ca87c9153d7964b0106e46aff39d58\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\b7ca87c9153d7964b0106e46aff39d58\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\78acb8cea9794aa51873fdf786b9ca5d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\78acb8cea9794aa51873fdf786b9ca5d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\kasim\.gradle\caches\transforms-3\ac814a725ad7d3951575b520961c478e\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\5750d63ce2c1fed0b5bae102ad4fe13d\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\5750d63ce2c1fed0b5bae102ad4fe13d\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\aac7fc7f1ae55f71ececec9e317df3ab\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\aac7fc7f1ae55f71ececec9e317df3ab\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b121112e2b2c9977515c23d87ba5fd38\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\b121112e2b2c9977515c23d87ba5fd38\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\f378747b11e483f46e88b3620e432a0e\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\f378747b11e483f46e88b3620e432a0e\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\7099d37a06589e2313fd903d6b2c4b94\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\7099d37a06589e2313fd903d6b2c4b94\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kasim\.gradle\caches\transforms-3\e6b0b9dc824b46f664e22553c27debac\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kasim\.gradle\caches\transforms-3\e6b0b9dc824b46f664e22553c27debac\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\kasim\.gradle\caches\transforms-3\9d1b2380f7b4a6d744ea16bf5d3fe755\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\kasim\.gradle\caches\transforms-3\9d1b2380f7b4a6d744ea16bf5d3fe755\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\1f1e127b29560434666c164524d684a3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\1f1e127b29560434666c164524d684a3\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\c78928d2744755fea61ad14bc85f170d\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kasim\.gradle\caches\transforms-3\c78928d2744755fea61ad14bc85f170d\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\08affc45554bfa4e39f25d2e8866169c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\08affc45554bfa4e39f25d2e8866169c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\a4ac9b44bd460951fa84a4499b733c07\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kasim\.gradle\caches\transforms-3\a4ac9b44bd460951fa84a4499b733c07\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\39f1abc436098827c181d0fed59970c7\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kasim\.gradle\caches\transforms-3\39f1abc436098827c181d0fed59970c7\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\675d4f8b82be03b66a2499ef69f77467\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kasim\.gradle\caches\transforms-3\675d4f8b82be03b66a2499ef69f77467\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter_projelerim\cineplus\cineplus\android\app\src\debug\AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kasim\.gradle\caches\transforms-3\b80677c91f94664183fd6ffc76219b18\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\cced9d0290f3f1eccc2e05185c8462d3\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\7099d37a06589e2313fd903d6b2c4b94\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\7099d37a06589e2313fd903d6b2c4b94\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\kasim\.gradle\caches\transforms-3\cced9d0290f3f1eccc2e05185c8462d3\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76

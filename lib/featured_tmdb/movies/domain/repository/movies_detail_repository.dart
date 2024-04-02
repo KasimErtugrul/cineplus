@@ -11,6 +11,3 @@ abstract class MoviesDetailRepository {
 
 }
 
-abstract class MoviesDetailLocalRepository{
-  Either<Failure, MoviesEntity> getMoviesDetail({required int movieId});
-}
