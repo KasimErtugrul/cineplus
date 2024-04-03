@@ -20,7 +20,6 @@ import 'package:cineplus/featured_tmdb/search/data/datasource/remote/search_remo
 import 'package:cineplus/featured_tmdb/search/data/repository_imp/search_repository_imp.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'featured_tmdb/collections/data/datasource/movies_collection_remote_datasource.dart';
 import 'featured_tmdb/collections/data/datasource/remote/movies_collection_remote.dart';
 import 'featured_tmdb/collections/data/repository_imp/movies_collection_repository_imp.dart';
