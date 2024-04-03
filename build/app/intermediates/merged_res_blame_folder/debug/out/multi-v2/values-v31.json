@@ -4,14 +4,14 @@
             "outputFile": "com.example.cineplus.app-mergeDebugResources-11:/values-v31/values-v31.xml",
             "map": [
                 {
-                    "source": "D:\\flutter_projelerim\\cineplus\\cineplus\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "source": "E:\\cineplus\\cineplus\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
                     "from": {
                         "startLines": "3,15",
                         "startColumns": "4,4",
-                        "startOffsets": "173,881",
+                        "startOffsets": "176,896",
                         "endLines": "8,17",
                         "endColumns": "12,12",
-                        "endOffsets": "530,1045"
+                        "endOffsets": "538,1062"
                     },
                     "to": {
                         "startLines": "2,8",

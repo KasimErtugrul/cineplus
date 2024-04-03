@@ -68,8 +68,8 @@ class MainScreenMovieCardWidget extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) => MovieDetailPage(
-                  posterUrl: posterUrl ?? null,
-                  backdropUrl: backdropUrl ?? null,
+                  posterUrl: posterUrl,
+                  backdropUrl: backdropUrl,
                   movieId: movieId,
                   appBar: title!,
                   tag: tag,

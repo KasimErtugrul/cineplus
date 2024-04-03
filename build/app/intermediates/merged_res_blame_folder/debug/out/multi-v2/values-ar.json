@@ -4,17 +4,7 @@
             "outputFile": "com.example.cineplus.app-mergeDebugResources-11:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kasim\\.gradle\\caches\\transforms-3\\cced9d0290f3f1eccc2e05185c8462d3\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,120,179,246,308,390,471,572,667",
-                        "endColumns": "64,58,66,61,81,80,100,94,83",
-                        "endOffsets": "115,174,241,303,385,466,567,662,746"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kasim\\.gradle\\caches\\transforms-3\\ac814a725ad7d3951575b520961c478e\\transformed\\core-1.7.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\17kas\\.gradle\\caches\\transforms-3\\62d4f403d9c59c19d9a6cb862e3bce08\\transformed\\core-1.7.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "751",
                         "endColumns": "100",
                         "endOffsets": "847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\17kas\\.gradle\\caches\\transforms-3\\f6fc990c1a400ef756af76d85574a04e\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,179,246,308,390,471,572,667",
+                        "endColumns": "64,58,66,61,81,80,100,94,83",
+                        "endOffsets": "115,174,241,303,385,466,567,662,746"
                     }
                 }
             ]

@@ -4,7 +4,17 @@
             "outputFile": "com.example.cineplus.app-mergeDebugResources-11:/values-tr/values-tr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kasim\\.gradle\\caches\\transforms-3\\ac814a725ad7d3951575b520961c478e\\transformed\\core-1.7.0\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\17kas\\.gradle\\caches\\transforms-3\\f6fc990c1a400ef756af76d85574a04e\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,191,256,317,397,469,559,655",
+                        "endColumns": "76,58,64,60,79,71,89,95,75",
+                        "endOffsets": "127,186,251,312,392,464,554,650,726"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\17kas\\.gradle\\caches\\transforms-3\\62d4f403d9c59c19d9a6cb862e3bce08\\transformed\\core-1.7.0\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "731",
                         "endColumns": "100",
                         "endOffsets": "827"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kasim\\.gradle\\caches\\transforms-3\\cced9d0290f3f1eccc2e05185c8462d3\\transformed\\jetified-exoplayer-core-2.18.7\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,132,191,256,317,397,469,559,655",
-                        "endColumns": "76,58,64,60,79,71,89,95,75",
-                        "endOffsets": "127,186,251,312,392,464,554,650,726"
                     }
                 }
             ]

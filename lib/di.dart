@@ -8,8 +8,7 @@ import 'package:cineplus/featured_tmdb/movie_lists/data/datasource/movie_list_re
 import 'package:cineplus/featured_tmdb/movie_lists/data/repository_imp/repository_imp.dart';
 import 'package:cineplus/featured_tmdb/movie_lists/domain/repository/repository.dart';
 import 'package:cineplus/featured_tmdb/movie_lists/presentation/controller/movie_list_controller.dart';
-import 'package:cineplus/featured_tmdb/movies/data/datasource/local/movies_detail_local.dart';
-import 'package:cineplus/featured_tmdb/movies/data/datasource/movies_detail_local_datasource.dart';
+
 import 'package:cineplus/featured_tmdb/movies/data/datasource/movies_detail_remote_datasource.dart';
 import 'package:cineplus/featured_tmdb/movies/data/datasource/remote/movies_detail_remote.dart';
 import 'package:cineplus/featured_tmdb/movies/domain/repository/movies_detail_repository.dart';
@@ -34,7 +33,6 @@ import 'featured_tmdb/movie_lists/domain/usecase/movie_list_popular_usecase.dart
 import 'featured_tmdb/movie_lists/domain/usecase/movie_list_toprated_usecase.dart';
 import 'featured_tmdb/movie_lists/domain/usecase/movie_lists_upcoming_usecases.dart';
 import 'featured_tmdb/movies/data/repository_imp/movies_detail_repository_imp.dart';
-import 'featured_tmdb/movies/domain/usecase/movies_detail_local_usecase.dart';
 import 'featured_tmdb/search/data/datasource/search_remote_datasource.dart';
 import 'featured_tmdb/search/domain/repository/search_repostitory.dart';
 import 'featured_tmdb/search/domain/usecase/search_person_usecase.dart';
@@ -63,15 +61,13 @@ void setupLocator() {
         ..fetchUpComingController(),
       permanent: true);
 // Movies Detail
-  Get.putAsync(() => GetStorage.init());
+ // Get.putAsync(() => GetStorage.init());
   Get.lazyPut<MoviesDetailRemote>(() => MoviesDetailRemote(), fenix: true);
-  Get.lazyPut<MoviesDetailLocal>(() => MoviesDetailLocal(), fenix: true);
+ 
   Get.lazyPut<MoviesDetailRemoteDatasource>(
       () => MoviesDetailRemoteDatasourceImp(),
       fenix: true);
-  Get.lazyPut<MoviesDetailLocalDatasource>(
-      () => MoviesDetailLocalDatasourceImpl(),
-      fenix: true);
+ 
   Get.lazyPut<MoviesDetailRepository>(() => MoviesDetailRepositoryImp(),
       fenix: true);
 

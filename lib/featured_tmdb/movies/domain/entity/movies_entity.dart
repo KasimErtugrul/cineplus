@@ -32,7 +32,7 @@ class MoviesEntity extends Equatable {
   final RecommendationsEntity? recommendations;
   final SimilarEntity? similar;
   final VideosEntity? videos;
-  final ReleaseDatesEntity? releaseDates;
+//  final ReleaseDatesEntity? releaseDates;
 
   const MoviesEntity({
     this.adult,
@@ -66,7 +66,7 @@ class MoviesEntity extends Equatable {
     this.recommendations,
     this.similar,
     this.videos,
-    this.releaseDates,
+    // this.releaseDates,
   });
   Map<String, dynamic> toJson() => {
         "adult": adult,
@@ -111,7 +111,7 @@ class MoviesEntity extends Equatable {
         "recommendations": recommendations?.toJson(),
         "similar": similar?.toJson(),
         "videos": videos?.toJson(),
-        "release_dates": releaseDates?.toJson(),
+        //"release_dates": releaseDates?.toJson(),
       };
 
   @override
@@ -147,7 +147,7 @@ class MoviesEntity extends Equatable {
         recommendations,
         similar,
         videos,
-        releaseDates
+        // releaseDates
       ];
 }
 
@@ -449,7 +449,7 @@ class RecommendationsResultEntity extends Equatable {
   final String? mediaType;
   final List<int>? genreIds;
   final double? popularity;
-  final DateTime? releaseDate;
+  final String? releaseDate;
   final bool? video;
   final double? voteAverage;
   final int? voteCount;
@@ -484,8 +484,7 @@ class RecommendationsResultEntity extends Equatable {
         "genre_ids":
             genreIds == null ? [] : List<int>.from(genreIds!.map((x) => x)),
         "popularity": popularity,
-        "release_date":
-            "${releaseDate!.year.toString().padLeft(4, '0')}-${releaseDate!.month.toString().padLeft(2, '0')}-${releaseDate!.day.toString().padLeft(2, '0')}",
+        "release_date": releaseDate,
         "video": video,
         "vote_average": voteAverage,
         "vote_count": voteCount,
@@ -615,7 +614,7 @@ class SimilarResultEntity extends Equatable {
   final String? overview;
   final double? popularity;
   final String? posterPath;
-  final DateTime? releaseDate;
+  final String? releaseDate;
   final String? title;
   final bool? video;
   final double? voteAverage;
@@ -648,8 +647,7 @@ class SimilarResultEntity extends Equatable {
         "overview": overview,
         "popularity": popularity,
         "poster_path": posterPath,
-        "release_date":
-            "${releaseDate!.year.toString().padLeft(4, '0')}-${releaseDate!.month.toString().padLeft(2, '0')}-${releaseDate!.day.toString().padLeft(2, '0')}",
+        "release_date": releaseDate,
         "title": title,
         "video": video,
         "vote_average": voteAverage,

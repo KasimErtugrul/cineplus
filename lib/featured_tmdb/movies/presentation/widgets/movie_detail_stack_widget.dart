@@ -67,7 +67,7 @@ class MovieDetailStackWidget extends StatelessWidget {
                 top: 150,
                 left: 20,
                 child: Hero(
-                  tag: tag,
+                  tag: 'deneme',
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
                     child: posterUrl != null

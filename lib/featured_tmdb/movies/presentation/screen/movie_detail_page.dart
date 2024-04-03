@@ -74,8 +74,8 @@ class MovieDetailPage extends StatelessWidget {
             MovieDetailStackWidget(
               moviesDetailController: moviesDetailController,
               tag: tag,
-              posterUrl: posterUrl ?? null,
-              backdropUrl: backdropUrl ?? null,
+              posterUrl: posterUrl,
+              backdropUrl: backdropUrl,
             ),
             moviesDetailController.moviesDetailLoading.value
                 ? Padding(

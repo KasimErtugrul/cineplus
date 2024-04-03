@@ -8,14 +8,6 @@
         "source": "com.example.cineplus.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.cineplus.app-merged_res-13:/drawable_launch_background.xml.flat",
-        "source": "com.example.cineplus.app-main-7:/drawable/launch_background.xml"
-    },
-    {
-        "merged": "com.example.cineplus.app-merged_res-13:/drawable-night_background.png.flat",
-        "source": "com.example.cineplus.app-main-7:/drawable-night/background.png"
-    },
-    {
         "merged": "com.example.cineplus.app-merged_res-13:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.example.cineplus.app-main-7:/mipmap-mdpi/ic_launcher.png"
     },
@@ -46,14 +38,6 @@
     {
         "merged": "com.example.cineplus.app-merged_res-13:/drawable-hdpi_splash.png.flat",
         "source": "com.example.cineplus.app-main-7:/drawable-hdpi/splash.png"
-    },
-    {
-        "merged": "com.example.cineplus.app-merged_res-13:/drawable_background.png.flat",
-        "source": "com.example.cineplus.app-main-7:/drawable/background.png"
-    },
-    {
-        "merged": "com.example.cineplus.app-merged_res-13:/drawable-night_launch_background.xml.flat",
-        "source": "com.example.cineplus.app-main-7:/drawable-night/launch_background.xml"
     },
     {
         "merged": "com.example.cineplus.app-merged_res-13:/drawable-night-v21_launch_background.xml.flat",

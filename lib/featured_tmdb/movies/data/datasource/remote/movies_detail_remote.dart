@@ -8,12 +8,12 @@ import '../../model/movie_watch_providers_model.dart';
 import '../../model/movies_model.dart';
 
 class MoviesDetailRemote {
-  
   Future<MoviesModel?> moviesDetail({required int movieId}) async {
     try {
-      MoviesModel? value = await IsolateFlutter.createAndStart(
-          _getMoviesDetail, movieId,
-          debugLabel: 'Movies Detail Isolate');
+      MoviesModel? value =
+          await IsolateFlutter.createAndStart<int, MoviesModel>(
+              _getMoviesDetail, movieId,
+              debugLabel: 'Movies Detail Isolate');
 
       return value!;
     } catch (e) {
@@ -60,9 +60,9 @@ class MoviesDetailRemote {
             appendToResponse:
                 'credits,external_ids,images,keywords,recommendations,similar,videos,watch_provider,release_dates')
         as Map<String, dynamic>;
-        
-   
-   // log('remote map: $result');
+    log('remoge: $result');
+
+    // log('remote map: $result');
     return MoviesModel.fromJson(result);
   }
 
@@ -70,7 +70,7 @@ class MoviesDetailRemote {
     Map<String, dynamic> result = await BaseTmdbPackage.tmdb.v3.movies
             .getImages(movieId, includeImageLanguage: 'en,null')
         as Map<String, dynamic>;
-        log('movie images: $result');
+    log('movie images: $result');
 
     return MoviesImagesModel.fromJson(result);
   }

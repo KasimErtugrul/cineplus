@@ -44,7 +44,7 @@ class MoviesModel extends MoviesEntity {
     super.recommendations,
     super.similar,
     super.videos,
-    super.releaseDates,
+    //  super.releaseDates,
   });
 
   factory MoviesModel.fromJson(Map<String, dynamic> json) => MoviesModel(
@@ -100,9 +100,9 @@ class MoviesModel extends MoviesEntity {
         similar:
             json["similar"] == null ? null : Similar.fromJson(json["similar"]),
         videos: json["videos"] == null ? null : Videos.fromJson(json["videos"]),
-        releaseDates: json["release_dates"] == null
-            ? null
-            : ReleaseDates.fromJson(json["release_dates"]),
+        //  releaseDates: json["release_dates"] == null
+        //      ? null
+        //    : ReleaseDates.fromJson(json["release_dates"]),
       );
 
   @override
@@ -149,7 +149,7 @@ class MoviesModel extends MoviesEntity {
         "recommendations": recommendations?.toJson(),
         "similar": similar?.toJson(),
         "videos": videos?.toJson(),
-        "release_dates": releaseDates?.toJson(),
+        //"release_dates": releaseDates?.toJson(),
       };
 }
 
@@ -467,9 +467,7 @@ class RecommendationsResult extends RecommendationsResultEntity {
             ? []
             : List<int>.from(json["genre_ids"]!.map((x) => x)),
         popularity: json["popularity"]?.toDouble(),
-        releaseDate: json["release_date"] == null
-            ? null
-            : DateTime.parse(json["release_date"]),
+        releaseDate: json["release_date"],
         video: json["video"],
         voteAverage: json["vote_average"]?.toDouble(),
         voteCount: json["vote_count"],
@@ -490,7 +488,7 @@ class RecommendationsResult extends RecommendationsResultEntity {
             genreIds == null ? [] : List<int>.from(genreIds!.map((x) => x)),
         "popularity": popularity,
         "release_date":
-            "${releaseDate!.year.toString().padLeft(4, '0')}-${releaseDate!.month.toString().padLeft(2, '0')}-${releaseDate!.day.toString().padLeft(2, '0')}",
+            releaseDate, //"${releaseDate!.year.toString().padLeft(4, '0')}-${releaseDate!.month.toString().padLeft(2, '0')}-${releaseDate!.day.toString().padLeft(2, '0')}"
         "video": video,
         "vote_average": voteAverage,
         "vote_count": voteCount,
@@ -634,9 +632,7 @@ class SimilarResult extends SimilarResultEntity {
         overview: json["overview"],
         popularity: json["popularity"]?.toDouble(),
         posterPath: json["poster_path"],
-        releaseDate: json["release_date"] == null
-            ? null
-            : DateTime.parse(json["release_date"]),
+        releaseDate: json["release_date"],
         title: json["title"],
         video: json["video"],
         voteAverage: json["vote_average"]?.toDouble(),
@@ -656,7 +652,7 @@ class SimilarResult extends SimilarResultEntity {
         "popularity": popularity,
         "poster_path": posterPath,
         "release_date":
-            "${releaseDate!.year.toString().padLeft(4, '0')}-${releaseDate!.month.toString().padLeft(2, '0')}-${releaseDate!.day.toString().padLeft(2, '0')}",
+            releaseDate,
         "title": title,
         "video": video,
         "vote_average": voteAverage,
